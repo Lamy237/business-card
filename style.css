@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    margin: 20px;
+    font-family: 'Nunito', sans-serif;
+    background-color: #EAEAEF;
+}
+
+.card {
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #D7DBDF;
+    color: #171B26;
+    border-bottom: 5px solid #9DBB74;
+    border-radius: 10px;
+    box-shadow: 0 0 3px #000;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    background-image: url("images/lamy.png");
+    background-size: cover;
+    border: 2px solid #EAEAEF;
+    border-radius: 50%;
+}
